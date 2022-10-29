@@ -1,0 +1,27 @@
+{"intents": [
+    {"tag": "salam",
+     "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Hai :)", ],
+     "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Kawan", "Hai, ada yang bisa saya bantu?"]
+    },
+    {"tag": "bye",
+     "patterns": ["Bye","Dadah", "Selamat Tinggal", "Dah", "Daah", "Terimakasih, Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye"],
+     "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    },
+    {"tag": "nama",
+     "patterns": ["siapa nama kamu?","nama kamu siapa?", "lu siapa?", "siapa sih lo?", "namamu siapa ?", "lo siapa sih?", "nama?"],
+     "responses": ["Namaku MarvelBot, salam kenal kak!", "Halo, aku MarvelBot!", "Kenalin, aku MarvelBot!"]
+    },
+    {"tag": "film",
+     "patterns": ["ada rekomendasi film marvel yang keren ngak?", "kalau film, ada saran yang bagus ngak??", "ada saran film marvel yang bagus ngak??", "ada rekomendasi film yang keren ngak?", "ada saran film yang bagus ngak", "saranin film marvel yang bagus dong", "saranin film yang bagus dong"],
+     "responses": ["Kamu Bisa Nonton Avengers: Endgame, filmnya keren dan banyak karakter hero super tentunya", "aku saranin kamu nonton doctor strange sih, karena visual effect nya keren banget dan menceritakan awal mula doctor strange jadi sorcerer supreme", "aku nyaranin film Thor Love and thunder sih, itu menceritakan kisah Jane foster yang punya kekuatan thor"]
+    },
+    {"tag": "series",
+    "patterns": ["ada rekomendasi series marvel yang keren ngak??", "kalau series, ada saran yang bagus ngak??", "ada saran series marvel yang bagus ngak??", "ada rekomendasi series yang keren ngak?", "ada saran series yang bagus ngak", "saranin series marvel yang bagus dong", "saranin series yang bagus dong"],
+    "responses": ["Kamu Bisa Nonton WandaVision, seriesnya keren dan tentunya menceritakan scarlet witch setelah kematian vision ", "aku saranin kamu nonton loki, seriesnya keren banget dengan visual effect dan perjalan waktu loki dengan space stone"]
+    },
+    {"tag": "karakter",
+    "patterns": ["karakter favoritmu apa?", "apa karakter favoritmu?", "adakah karakter favoritmu?" ],
+    "responses": ["loki, black panther", "spider-man"]
+    }
+]
+}
